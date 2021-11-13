@@ -102,6 +102,7 @@ export const Img = styled.img`
 	width: 100%;
 	margin: 0 0 10px 0;
 	padding-right: 0;
+	border-radius: 10px;
 `;
 
 export const TagsList = styled.ul`
@@ -111,13 +112,12 @@ export const TagsList = styled.ul`
 `;
 
 export const Tag = styled.li`
-	color: #01bf71;
 	font-size: 12px;
 	line-height: 16px;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: 1.4px;
 	text-transform: uppercase;
 	margin-bottom: 16px;
-
+	color: ${({ darkText }) => (darkText ? '#000' : '#01bf71')};
 	padding-right: 10px;
 `;

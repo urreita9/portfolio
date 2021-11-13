@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import { projects } from './Data';
+
 import {
 	InfoContainer,
 	InfoWrapper,
@@ -49,7 +49,7 @@ const InfoSection = ({
 								<Subtitle darkText={darkText}>{description}</Subtitle>{' '}
 								<TagsList>
 									{tags.map((tag) => (
-										<Tag>{tag}</Tag>
+										<Tag darkText={darkText}>{tag}</Tag>
 									))}
 								</TagsList>
 								<BtnWrap>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import AbputSection from '../components/About';
+import AboutSection from '../components/About';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import { projects } from '../components/InfoSection/Data';
@@ -23,7 +24,8 @@ const Home = () => {
 					<InfoSection {...project} key={i} />
 				))}
 			</div>
-			<AbputSection />
+			<AboutSection />
+			<Footer />
 		</>
 	);
 };

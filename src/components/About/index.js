@@ -16,7 +16,7 @@ const AboutSection = () => {
 			<AboutH1>About</AboutH1>
 			<AboutWrapper>
 				<AboutCard>
-					<AboutIcon src='/images/svg-1.svg' />
+					<AboutIcon src='./images/svg-1.svg' />
 					<AboutH2>Techs</AboutH2>
 					<AboutP>
 						GIT, HTML. Css/Sass. Javascript. React JS. Styled Components.
@@ -24,7 +24,7 @@ const AboutSection = () => {
 					</AboutP>
 				</AboutCard>
 				<AboutCard>
-					<AboutIcon src='/images/svg-2.svg' />
+					<AboutIcon src='./images/svg-2.svg' />
 					<AboutH2>Experience</AboutH2>
 					<AboutP>
 						Looking for my first real dev experience. I have been studying a lot
@@ -32,7 +32,7 @@ const AboutSection = () => {
 					</AboutP>
 				</AboutCard>
 				<AboutCard>
-					<AboutIcon src='/images/svg-3.svg' />
+					<AboutIcon src='./images/svg-3.svg' />
 					<AboutH2>My objectives</AboutH2>
 					<AboutP>
 						Joining a great team contributing my acquired knowledge and learning

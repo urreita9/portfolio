@@ -23,7 +23,7 @@ export const projects = [
 	{
 		headline: 'Patrick Mahomes E-Commerce',
 		description: 'Clone of the Patrick Mahomes online store.',
-		img: '/images/PatMahomes.png',
+		img: './images/PatMahomes.png',
 		tags: ['React JS', 'CSS/Sass', 'FireBase'],
 		source: 'https://github.com/urreita9/PatMahomesEcommerceClone__coderHouse',
 		visit: 'https://patmahomes-store-coderhouse.web.app/',
@@ -44,7 +44,7 @@ export const projects = [
 	{
 		headline: 'Giphos App',
 		description: 'Search, store and make your own GIFOS!',
-		img: '/images/giphosApp.png',
+		img: './images/giphosApp.png',
 		tags: ['HTML', 'CSS/Sass', 'JavaScript'],
 		source: 'https://github.com/urreita9/giphos',
 		visit: 'https://urreita9.github.io/giphos/',
@@ -65,7 +65,7 @@ export const projects = [
 		headline: 'ToDo App',
 		description:
 			'Great App to write your Todos. Saved in localStorage. Drag n Drop em!',
-		img: '/images/ToDoApp.png',
+		img: './images/ToDoApp.png',
 		tags: ['React', 'Javascript'],
 		source: 'https://github.com/urreita9/todo-app',
 		visit: 'https://todo-app-eight-xi.vercel.app/',
@@ -85,7 +85,7 @@ export const projects = [
 	{
 		headline: 'Tip Calculator',
 		description: 'Add up with your friends and calculate tips.',
-		img: '/images/TipCalculatorApp.png',
+		img: './images/TipCalculatorApp.png',
 		tags: ['React', 'CSS/Sass'],
 		source: 'https://github.com/urreita9/tip-calculator-app',
 		visit: 'https://tip-calculator-app-nine.vercel.app/',
@@ -106,7 +106,7 @@ export const projects = [
 	{
 		headline: 'Rock, Paper, Sciossors!',
 		description: 'Challenge the AI to a rock, paper, scissors game!',
-		img: '/images/RockPaperScissors.png',
+		img: './images/RockPaperScissors.png',
 		tags: ['React', 'CSS/Sass'],
 		source: 'https://github.com/urreita9/rock-paper-scissors-game',
 		visit: 'https://rock-paper-scissors-game-urreita9.vercel.app/',

@@ -45,7 +45,7 @@ const Footer = () => {
 								<FooterLinkItems>
 									<IoDocumentText />
 									<FooterLink
-										href='/CVFranciscoUrreaFrontEndDev.pdf'
+										href='/CVFranciscoUrreaFullstackWeb.pdf'
 										target='_blank'
 									>
 										CV

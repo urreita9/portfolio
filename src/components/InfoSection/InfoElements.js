@@ -108,6 +108,7 @@ export const Img = styled.img`
 export const TagsList = styled.ul`
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	list-style: none;
 `;
 
